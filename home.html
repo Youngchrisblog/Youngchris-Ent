@@ -1,11 +1,36 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
 <body>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7338073629693433"
-     crossorigin="anonymous"></script>
+<h2>Toggle Dark/Light Mode</h2>
+<p>Click the button to toggle between dark and light mode for this page.</p>
 
-<div style="background-color:black;color:white;">Hello, Welcome to Youngchris ENT, a free website for all, in this website
-you can download videos, music , movies. Please make sure you share website link to others thanks </div>
+<button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+<p> hello </p>
+
 </body>
 </html>
+
